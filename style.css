@@ -15,7 +15,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 48px;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .intro-button {
     width: 120px;
-    padding: 12px 24px;
+    padding: 8px 16px;
     border: none;
     background-color: #3882f6;
     border-radius: 8px;
@@ -92,6 +92,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 .main-title {
@@ -108,7 +109,6 @@ ul {
     width: 300px;
     height: 300px;
     gap: 24px;
-    margin-bottom: 48px;
 
 }
 
@@ -126,10 +126,79 @@ img {
     width: auto;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 36px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 600px;
+}
+
+.quoted {
+    align-self: center;
+    font-weight: bold;
+    padding-left: 400px;
+    font-size: 24px;
+
+}
+
+.recruit-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+}
+
+.recruit-card {
+    display: flex;
+    padding: 32px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+    width: 700px;
+}
+
+.r-words {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.r-title {
+    color: #f9faf8;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.r-text {
+    color: #f9faf8;
+    width: 450px;
+}
+
+.r-button {
+    background-color: #3882f6;
+    border: #f9faf8 solid 2px;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    color: #e5e7eb
+    color: #e5e7eb;
+    padding: 32px;
+    
 }
