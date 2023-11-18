@@ -46,8 +46,6 @@ body {
     }
 
 .intro-card {
-    display: flex;
-    flex-direction: column;
     width: 300px;
     justify-content: center;
     
@@ -92,14 +90,15 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 96px;
+    padding: 24px;
 }
 
 .main-title {
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
-    padding: 16px;
+    padding: 28px;
     margin-bottom: 16px;
 }
 
@@ -108,7 +107,8 @@ ul {
     justify-content: center;
     width: 300px;
     height: 300px;
-    gap: 24px;
+    gap: 96px;
+    
 
 }
 
@@ -117,12 +117,15 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 16px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img {
     border:#3882f6 solid 2px;
     border-radius: 5px;
-    height: 150px;
+    height: 300px;
     width: auto;
 }
 
